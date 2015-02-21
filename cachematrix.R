@@ -1,13 +1,12 @@
 ## Programming Assingment 2
 ## This submission will allow the caching of a calculated inverse of a matrix
 
-
 ## Function:  mackemakeCacheMatrix
 ## Input: x, a square matrix 
 ## Returns:  a list of set/get functions
 ## Desc:  This function creates a special matrix that which is contains a function to:
-##  1) set/get value of the vector
-##  2) set/get the value of the mean
+##  1) set/get value of the matrix
+##  2) set/get the value of the inverted matrix
 ## Assumptions: this assingment assumes that the matrix supplied is always invertible
 
 makeCacheMatrix <- function(x = matrix()) {
